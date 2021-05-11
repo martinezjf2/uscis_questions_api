@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_02_21_055223) do
     t.string "question"
     t.string "correct_answer"
     t.string "language"
+    t.string "incorrect_answers"
     t.boolean "above_65"
     t.string "type_of_question"
   end
