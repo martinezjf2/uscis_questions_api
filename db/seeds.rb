@@ -8,7 +8,7 @@
 
 
 
-question_1 = Question.create([{above_65: false, language: "English", type_of_question: "government", question: "What is the supreme law of the land?", incorrect_answers: ["", "", ""], correct_answer: "The Constitution"}])
+question_1 = Question.create([{above_65: false, language: "English", type_of_question: "government", question: "What is the supreme law of the land?", incorrect_answers: ["Emancipation Proclomation", "Bill of Rights", "Gettysburg Address"], correct_answer: "The Constitution"}])
 question_2 = Question.create([{above_65: false, language: "English", type_of_question: "government", question: "What does the Constitution do?", incorrect_answers: ["", "", ""], correct_answer: "Sets up the government, defines the government, protects basic rights of Americans"}]) 
 question_3 = Question.create([{above_65: false, language: "English", type_of_question: "government", question: "The idea of self-government is in the first three words of the Constitutio. What are these words?", incorrect_answers: ["", "", ""], correct_answer: "We are People"}])
 question_4 = Question.create([{above_65: false, language: "English", type_of_question: "government", question: "What is an amendment?", incorrect_answers: ["", "", ""], correct_answer: "a change (to the Constitution), an addition(to the Constitution)"}])
