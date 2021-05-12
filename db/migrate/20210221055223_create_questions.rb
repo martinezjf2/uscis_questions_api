@@ -4,7 +4,7 @@ class CreateQuestions < ActiveRecord::Migration[6.0]
       t.string :question
       t.string :correct_answer
       t.string :language
-      t.string :incorrect_answers, array: true, default: []
+      t.string :incorrect_answers
       t.boolean :above_65
       t.string :type_of_question
      
